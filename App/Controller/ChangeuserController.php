@@ -1,13 +1,13 @@
 <?php
-require_once("../Tools/CommUtil.php");
+require_once("../Tools/CommUtil.php");//change this line
 require_once("Controller_Action.php");
 require_once ("../Model/UserModel.php");
 require_once ("../Model/GroupModel.php");
 require_once ("../Model/SendHistoryModel.php");
-
 class ChangeuserController extends Controller_Action
 {
-	public function init() {
+   //add this line	
+    public function init() {
 		$this->formBean["go_logout"]=$this->getUrl('Login','logout');
 		$this->formBean["go_menu"]=$this->getUrl('Main','main_menu');
 		session_start();
