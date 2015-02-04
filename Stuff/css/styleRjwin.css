@@ -1,0 +1,277 @@
+/*#############################################################
+Name: RJ-win
+Date: 2009-07-01
+Author:tenten
+#############################################################*/
+
+/**********  STANDARD ELEMENTS  **********/
+body{
+	margin:0 auto;
+	padding:0;
+	background-color:#EEEEEE;
+	line-height:140%;
+	font-size:small;
+	font-family: "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Verdana", "sans-serif";
+	text-align:justify;
+}
+img{
+	margin:0;
+	padding:0;
+	border-style:none;
+	border-width:0;
+}
+a:link{
+	color:#333399;
+	text-decoration:none;
+}
+a:visited{
+	color:#333366;
+	text-decoration:none;
+}
+a:hover{
+	color:#9999CC;
+	text-decoration:underline;
+}
+a:active{
+	color:#ffffff;
+	text-decoration:underline;
+}
+br {
+	letter-spacing:0;
+}
+
+/************    STRUCTURE    ************/
+/*-----------------------*/
+/* Main structure block  */
+/*-----------------------*/
+#wrapper{
+	width:900px;
+	margin:0 auto;
+	padding:0;
+	border-left:1px solid #BBBBBB;
+	border-right:1px solid #BBBBBB;
+}
+
+#container{
+	width:900px;
+	margin:0;
+	padding:0;
+}
+
+/*-----------------------*/
+/* header block        */
+/*-----------------------*/
+.head_table {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-size: 130%;
+	color: #FFFFFF;
+}
+
+#header{
+	width:900px;
+	margin:0;
+	padding:0;
+}
+#header h1{
+	margin:0;
+	padding:0;
+	font-size:small;
+	font-weight:normal;
+}
+#header img{
+	margin:3px 0 0 0;
+}
+#logo{
+	float:left;
+	width:130px;
+	margin:15px 0 0 5px;
+}
+#title{
+	float:left;
+	width:341px;
+	margin:15px 0 0 5px;
+}
+
+
+/*-----------------------*/
+/* content block         */
+/*-----------------------*/
+#content{
+	float:right;
+	width:100%;
+	_height:600px;
+	min-height:600px;
+	margin:0;
+	background-color:#FCF9EB;
+}
+#main{
+	width:95%;
+	margin:0 auto;
+	padding:1em;
+}
+
+
+.tbl01{
+	width:50%;
+	margin:1em auto;
+	border-collapse:collapse;
+	border:1px solid #cccccc;
+}
+.tbl01 td{
+	padding:5px 15px;
+	border-collapse:collapse;
+}
+.tbl02{
+	width:90%;
+	margin:1em auto;
+	border-collapse:collapse;
+	border:1px solid #cccccc;
+}
+.tbl02 td{
+	padding:5px 5px;
+	border-collapse:collapse;
+}
+
+.tbl03{
+	width:95%;
+	margin:1em auto;
+	border-collapse:collapse;
+	border:1px solid #cccccc;
+}
+.tbl03 td{
+	padding:5px 5px;
+	border:1px solid #cccccc;
+	border-collapse:collapse;
+
+}
+.tbl04 td{
+	border-style:none;
+}
+.tbl05{
+	width:90%;
+	margin:1em auto;
+	border-collapse:collapse;
+	border:1px solid #cccccc;
+}
+.tbl05 td{
+	padding:5px 5px;
+	border-collapse:collapse;
+	border:1px solid #cccccc;
+}
+
+/*-----------------------*/
+/* footer block          */
+/*-----------------------*/
+#footer{
+	clear:both;
+	width:900px;
+	margin:0;
+	padding:3px 0 0 0;
+	text-align:right;
+}
+#footer span{
+	padding-right:1em;
+	color:#ffffff;
+}
+/*-----------------------*/
+/* misc                  */
+/*-----------------------*/
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix{
+	zoom:1;
+}
+
+.bg01{
+	background-color:#f2f1c0;
+}
+.bg02{
+	background-color:#98a8eb;
+}
+.line{
+	clear:both;
+	margin:1px 0;
+	padding:0;
+	height:1px;
+	background: transparent url(../images/dot3.gif) repeat-x;
+	background-position:left top;
+}
+.img_border{
+	margin:0;
+	padding:3px;
+	border:1px solid #eeeeee;
+}
+.c_style1{
+	color:#cc0000;
+}
+.c_style2{
+	color:#009933;
+	font-weight:bold;
+}
+.c_style3{
+	color:#003399;
+}
+.c_style4{
+	color:#CC0000;
+}
+.em{
+	font-weight:bold;
+}
+.em2{
+	font-weight:bold;
+	font-size:120%;
+	color:red;
+}
+.f120{
+	font-size:120%;
+}
+.floatleft{
+	clear:both;
+	float:left;
+}
+.floatright{
+	clear:both;
+	float:right;
+}
+.textleft{
+	text-align:left;
+}
+.textright{
+	text-align:right;
+}
+.textcenter{
+	text-align: center;
+}
+.small{
+	font-size:0.8em;
+}
+.bold{
+	font-weight:bold;
+}
+.hide{
+	display:none;
+}
+.tbl03_2 {
+	width:150px;
+	border-collapse:collapse;
+	border:1px solid #cccccc;
+}
+.tbl03_2  td {
+	padding:5px 5px;
+	border:1px solid #cccccc;
+	border-collapse:collapse;
+}
+.tbl03_3 {
+	width:150px;
+	border-collapse:collapse;
+	border:1px solid #666666;
+}
+.tbl03_3 td {
+}
+

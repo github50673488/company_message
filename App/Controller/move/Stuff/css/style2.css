@@ -1,0 +1,251 @@
+/*****  STANDARD ELEMENTS  *****/
+table{
+	border-collapse:collapse;
+}
+td{
+	border-collapse:collapse;
+}
+/*-----------------------*/
+/* TABLE STYLE           */
+/*-----------------------*/
+/* MYACCOUNT,GERNAL,STATUS,ACCEPT,CANCEL,MANAGEMENT,MOBILE */
+.sty-tbl1{
+	clear:both;
+	margin:20px 0;
+	border:1px solid #999999;
+}
+.sty-tbl1 td{
+	padding:7px 5px;
+	border:1px solid #999999;
+}
+/* DENOMINATION,GERNAL,STATUS,MOBILE */
+.sty-tbl2{
+	margin:20px 0;
+}
+.sty-tbl2 td{
+	padding:2px 5px;
+}
+/* DENOMINATION */
+.sty-tbl3{
+	margin:1em auto;
+	border:1px solid #999999;
+}
+.sty-tbl3 td{
+	padding:2px 5px;
+}
+.sty-tbl3 input{
+	text-align:right;
+}
+.sty-tbl4{
+	margin:0 auto;
+}
+.sty-tbl4 td{
+	padding:3px;
+	border-style:none;
+}
+.sty-tbl5{
+	width:100%;
+}
+.sty-tbl5 td{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px dotted #cfcfcf;
+}
+.sty-tbl5 div{
+
+}
+
+.sty-tbl6{
+	width:100%;
+}
+.sty-tbl6 td{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px dotted #cfcfcf;
+}
+.sty-tbl7{
+	margin:1em auto;
+	border:1px solid #999999;
+}
+.sty-tbl7 td{
+	padding:2px 5px;
+}
+.sty-tbl7 input{
+	text-align:center;
+}
+
+
+/*-----------------------*/
+/* TD STYLE              */
+/*-----------------------*/
+/* MYACCOUNT,STATUS,ACCEPT,CANCEL,MANAGEMENT */
+.sty-td1{
+	background-color:#797957;
+	font-weight:bold;
+	color:#ffffff;
+}
+.sty-td2{
+	background:url(../images/tr_odd2.gif);
+	border-bottom:1px solid #999999;
+}
+.sty-td3{
+	background-color:#ffffff;
+	border-bottom:1px solid #999999;
+}
+/* DENOMINATION */
+.sty_td4{
+	background-color:#efefef;
+	border-bottom:1px solid #999999;
+	border-right:1px solid #999999;
+}
+.sty_td5{
+	background-color:#ffffff;
+	border-bottom:1px solid #999999;
+	border-right:1px solid #999999;
+}
+
+/****  MYACOUNT STATUS ELEMENTS  ****/
+.nest_div{
+	margin:0 0;
+	text-align:right;
+}
+/*****  DENOMINATION ELEMENTS  *****/
+.main_column{
+	width:680px;
+	margin:1em 0;
+	padding:1em 0;
+	border-top:1px solid #999999;
+}
+.left_column{
+	width:390px;
+	float:left;
+}
+.right_column{
+	width:280px;
+	float:right;
+}
+/*****  ACCEPT ELEMENTS  *****/
+.item_list1{
+	margin:0;
+	padding:0
+	list-style:none;
+}
+.item_list1 li{
+	float:left;
+	padding:0.5em 2em 0.5em 0;
+}
+
+
+/*-----------------------*/
+/* misc                  */
+/*-----------------------*/
+.btm_dot{
+	border-bottom:1px dotted #999999;
+}
+.bg_ff{
+	background-color:#ffffff;
+}
+.no_border{
+	border-style:none;
+	border-width:0;
+}
+.no_bg{
+	background-image:none;
+}
+/*------------------------*/
+/* MARGIN PADDING SETTING */
+/*------------------------*/
+.m0{
+	margin:0;
+}
+.m1{
+	margin:1em;
+}
+.pl1{
+	padding-left:1em;
+}
+
+/*-----------------------*/
+/* WIDTH SETTING         */
+/*-----------------------*/
+.w100{
+	width:100%;
+}
+.w98{
+	width:98%;
+}
+.w95{
+	width:95%;
+}
+.w90{
+	width:90%;
+}
+.w85{
+	width:85%;
+}
+.w80{
+	width:80%;
+}
+.w75{
+	width:75%;
+}
+.w70{
+	width:70%;
+}
+.w65{
+	width:65%;
+}
+.w60{
+	width:60%;
+}
+.w55{
+	width:55%;
+}
+.w50{
+	width:50%;
+}
+.w45{
+	width:45%;
+}
+.w40{
+	width:40%;
+}
+.w35{
+	width:35%;
+}
+.w30{
+	width:30%;
+}
+.w25{
+	width:25%;
+}
+.w20{
+	width:20%;
+}
+.w15{
+	width:15%;
+}
+.w10{
+	width:10%;
+}
+.w5{
+	width:5%;
+}
+
+/***  IRREGULAR SIZE  ***/
+.w14{
+	width:14%;
+}
+.w16{
+	width:16%;
+}
+.w42{
+	width:42%;
+}
+.w43{
+	width:43%;
+}
+
+

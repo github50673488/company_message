@@ -1,0 +1,8 @@
+@charset "shift_jis";
+
+#top_search {
+    width:900px;
+    margin-top: 30px;
+    text-align: left;
+    float:left;
+}

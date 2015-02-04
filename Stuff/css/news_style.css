@@ -1,0 +1,24 @@
+.list_table {
+	font-size: 110%;
+	line-height: 130%;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+}
+.strong a:link, .strong a:visited {
+
+	color: #FF5A00;
+}
+
+.strong a:active, .strong a:hover {
+
+
+	color: #ff3333;
+}
+.detail_table {
+	font-size: 100%;
+	color: #454545;
+}

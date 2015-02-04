@@ -1,0 +1,47 @@
+.strong a:link, .strong a:visited {
+
+	color: #FF5A00;
+}
+
+.strong a:active, .strong a:hover {
+
+
+	color: #ff3333;
+}
+
+.info_hr {
+	height: 1px;
+	width: 100%;
+	color: #CCCCCC;
+}
+
+.info_table {
+	line-height: 130%;
+	font-size: 100%;
+}
+
+.menu_table {
+	color: #696969;
+	border: 1px solid #999999;
+	font-size: 100%;
+}
+.top_body {
+	font-size: 75%;
+}
+
+.menu_table b {
+	letter-spacing: 0.3em;
+	color: #454545;
+	font-size: 110%;
+}
+.menu_table a {
+	line-height: 130%;
+	font-size: 130%;
+}
+.menu_table a:link, .menu_table a:visited {
+	color: #2749C9;
+	text-decoration: none;
+}
+.menu_table a:active, .menu_table a:hover {
+	color: #ff3333;
+}

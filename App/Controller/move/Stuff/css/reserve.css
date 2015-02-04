@@ -1,0 +1,143 @@
+@charset "shift_jis";
+
+
+.top_right_mm {
+	margin-top: 25px;
+}
+
+.top_right_front .blue {
+	font-weight: bold;
+	color: #1D215A;
+	background-color: #BFDFED;
+	padding: 5px;
+	width: 182px;
+	margin: 3px auto 5px auto;
+}
+.top_right_front .orange {
+	font-weight: bold;
+	color: #C44A00;
+	background-color: #F7C94D;
+	padding: 5px;
+	width: 182px;
+	margin: 3px auto 5px auto;
+}
+
+.top_right_site {
+	border: 1px solid #E8E4CC;
+	background-color: #FBF9EB;
+	text-align: left;
+	padding-top: 7px;
+	padding-left: 13px;
+	font-weight: bold;
+	margin-top: 11px;
+	padding-bottom: 7px;
+	float:right;
+}
+.top_right_esite {
+	border: 1px solid #E8E4CC;
+	background-color: #FBF9EB;
+	text-align: left;
+	padding-top: 7px;
+	padding-left: 13px;
+	font-weight: bold;
+	margin-top: 11px;
+	padding-bottom: 7px;
+	float:right;
+}
+.top_logout {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+#sub_main {
+	padding: 20px 24px;
+	text-align: left;
+
+}
+#sub_main #ttl {
+	background-image: url(/images/reserve_heyakanri_ttl_bk.gif);
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 841px;
+	font-size: 133%;
+	color: #222222;
+	padding-top: 13px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+#main #sub_main #setsumei {
+	background-image: url(/images/reserve_naka_icon.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 50px;
+	margin: 15px 10px;
+	padding-top: 10px;
+}
+#main #sub_main #setsumei p {
+	margin-left: 80px;
+	line-height: 130%;
+}
+
+.mb15{
+	margin-bottom:15px;
+}
+
+table tr td {
+	margin: 0px;
+	padding: 3px;
+	background-color: #ffffff;
+}
+#main #sub_main td.bkred {
+	background-color: #F4C9C9;
+}
+#main #sub_main td.bkgray {
+	background-color: #eeeeee;
+}
+#main #sub_main td.red_bold {
+	color: #CC0000;
+	font-weight: bold;
+}
+#main  #sub_main  td.bkgreen {
+	background-color: #415848;
+	color: #ffffff;
+}
+#main #sub_main td.bkblue2 {
+	background-color: #B9E1E6;
+}
+#main  #sub_main  td.bkgreen  a:link {
+	color: #F1E745;
+	text-decoration: underline;
+}
+#main #sub_main td.bkyellow {
+	background-color: #F5F0DE;
+}
+#main #sub_main td.bkyellow2 {
+	background-color: #A59764;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.return{
+	background-color:#dddddd;
+	padding: 5px;
+	width:100%;
+	text-align:left;
+	margin: 15px 0;
+}
+.gray_back {
+	background-color:#dddddd;
+	padding: 5px;
+	width:841px;
+	text-align:center;
+	margin: 15px 0;
+}
+#main #sub_main #setsumei2 {
+	background-image: url(/images/reserve_naka_icon.gif);
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	margin: 15px 10px;
+	padding-top: 10px;
+}
+#main #sub_main #setsumei2 p {
+	margin-left: 80px;
+	line-height: 130%;
+}
